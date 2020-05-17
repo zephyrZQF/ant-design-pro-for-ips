@@ -4,7 +4,7 @@ import { Link, useIntl, ConnectProps, connect } from 'umi';
 import React from 'react';
 import SelectLang from '@/components/SelectLang';
 import { ConnectState } from '@/models/connect';
-import logo from '../assets/logo.svg';
+import logo from '../assets/lps.png';
 import styles from './UserLayout.less';
 
 export interface UserLayoutProps extends Partial<ConnectProps> {
@@ -50,7 +50,7 @@ const UserLayout: React.FC<UserLayoutProps> = (props) => {
             <div className={styles.header}>
               <Link to="/">
                 <img alt="logo" className={styles.logo} src={logo} />
-                <span className={styles.title}>Ant Design</span>
+                <span className={styles.title}>IPS</span>
               </Link>
             </div>
             <div className={styles.desc}>Ant Design 是西湖区最具影响力的 Web 设计规范</div>
